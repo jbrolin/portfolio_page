@@ -1,0 +1,58 @@
+body {
+  font-family: "Open sans";
+  background-color: #111111;
+  color: green;
+}
+
+.searchField {
+  width: 250px;
+  margin: 0 auto;
+  display: none;
+}
+
+.row {
+  vertical-align: middle;
+  padding: 20px 0;
+}
+.randomSearch a {
+  color: green;
+}
+.randomSearch a:hover {
+  color: green;
+}
+.randomSearch a:visited {
+  color: green;
+}
+.searchmatch {
+  font-size: 18px;
+  color: green;
+}
+.well {
+  background-color: rgba(30, 30, 30, 1);
+  border-color: green;
+  color: white;
+  display: table;
+  margin: 0 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.fa {
+  font-size: 26px;
+  color: green;
+}
+.resTitle {
+  color: green;
+  font-size: 24px;
+  font-style: bold;
+}
+.resultItem a {
+  color: white;
+}
+.resultItem a:hover {
+  color: white;
+}
+.resultItem a:visited {
+  color: white;
+}

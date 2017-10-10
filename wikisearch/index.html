@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--  ** A wikipedia search page written by JBH 2017 -->
+<!--  ** written as a project in freecode camp (transfered from codepen.io)
+      ** User Story: I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+      ** I can click a button to see a random Wikipedia entry.
+--> 
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="wikis.css">
+        <script src="wikis.js"></script>
+    </head>
+    <body>
+       <div class="container">
+  <div class="row text-center title">
+    <div class="title">
+      <h2>Wikisearch</h2>
+    </div>
+     <div class="search">
+      <button id="searchBtn" class="btn btn-link">
+         <i class="fa fa-search" style="font-size:36px;"></i>
+      </button>
+       
+       <div class="searchField">
+       <input type="text" class="form-control" id="searchForm">
+          
+       </div>
+       <br><br>
+       <div class="searchInstruction">
+         Click to start your search
+       </div>
+      
+    </div>
+    <br>
+   
+    
+    <div class="result">
+    
+    </div>
+     <div class="randomSearch">
+      <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Search   
+        <i class="fa fa-random"></i>
+         <i class="fa fa-external-link"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+    
+        
+    </body>
+</html>
